@@ -32,7 +32,7 @@ We are firstly **removing all punctuations** present in the sentence, after this
 After the step of tokenization, we are using **TFIDF Vectorizer** the first part of it is **The Term Frequency** which is nothing but the number of times a word appears in a document divided by the total number of words in the document and the other part is the** Inverse Data Frequency** which is The log of the number of documents divided by the number of documents that contain the word and the TFIDF is just the product of these two which gives us a statistical measure used to evaluate the importance of the word in the document of the corpus. After this, we use svc for predicting the category of the news headline. We have to perform TFIDF Vectorization and **SVC prediction** on each and every row of testing data so for this we are using the Sklearn pipeline which encapsulates all functions models provided to it as a single object after that we can perform our task of category classification.
 
 **Output:**
-[![](NLP  OUTPUT)](https://drive.google.com/file/d/1twF8YYlWxUoy4L8y2hdBZS1I4snfOupB/view?usp=sharing)
+[![NLP OUTPUT](NLP  OUTPUT)](https://drive.google.com/file/d/1twF8YYlWxUoy4L8y2hdBZS1I4snfOupB) <br>
 **Conclusion:**
 We have trained various models for multiclass classification to predict the right category of the given news description. Given below are the results observed:
 
